@@ -1,0 +1,3 @@
+#!/bin/sh
+sleep 40
+iptables -t mangle -I POSTROUTING 1 -j TTL --ttl-set 65
