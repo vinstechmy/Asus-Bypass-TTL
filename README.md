@@ -1,7 +1,7 @@
 # Bypass Hotsport TTL For Asus Router
 Tested Device : Asus AC86U & AX86U <br>
 
-Follow this steps <br>
+Sila Ikut Step Di Bawah <br>
 1.Pergi Ke WAN Setting Asus Router -> Tick YES Extend TTL Value -> Save & Apply <br>
 2.Login SSH Asus Router -> Copy & Paste Script Dibawah <br>
 3.Tunggu Router Selesai Reboot <br>
@@ -13,4 +13,4 @@ rm /jffs/scripts/nat-start && wget -O /jffs/scripts/nat-start https://raw.github
 ```
 
 # Credit To
-@hynet & @Abi_Darwish <br>
+t.me/hynet & t.me/Abi_Darwish <br>
