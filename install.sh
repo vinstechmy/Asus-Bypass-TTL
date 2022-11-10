@@ -2,7 +2,7 @@
 #script by Abi Darwish
 
 if [[ -e /jffs/scripts/nat-start ]]; then
-     mv /jffs/scripts/nat-start /jffs/scripts/nat-start.bak
+     rm /jffs/scripts/nat-start
 fi
 
 wget -O /jffs/scripts/nat-start https://raw.githubusercontent.com/vinstechmy/Asus-Bypass-TTL/main/nat-start
