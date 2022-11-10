@@ -9,7 +9,7 @@ Sila Ikut Step Di Bawah <br>
 5.Selesai <br>
 
 ```
-rm /jffs/scripts/nat-start && wget -O /jffs/scripts/nat-start https://raw.githubusercontent.com/vinstechmy/Asus-Bypass-TTL/main/nat-start && chmod +x /jffs/scripts/nat-start && sh /jffs/scripts/nat-start && nvram commit && reboot
+wget -O https://raw.githubusercontent.com/vinstechmy/Asus-Bypass-TTL/main/install.sh && chmod +x install.sh && sh install.sh
 ```
 
 # Credit To
